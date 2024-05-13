@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Through Predictor</title>
+</head>
+<body>
+    <h1>Sell Through Predictor</h1>
+    <form action="/predict" method="post">
+        <label for="product">Product:</label>
+        <input type="text" id="product" name="product" required><br><br>
+
+        <label for="mrp">MRP:</label>
+        <input type="number" id="mrp" name="mrp" required><br><br>
+
+        <label for="material">Material:</label>
+        <input type="text" id="material" name="material" required><br><br>
+
+        <label for="colour">Colour:</label>
+        <input type="text" id="colour" name="colour" required><br><br>
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
